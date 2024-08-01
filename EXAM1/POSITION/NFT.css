@@ -185,9 +185,105 @@ h4{
     width: 428px;
     height: 480px;
 }
+span{
+    color: #56CAB1;
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+.nft_h3{
+    color: #FFF;
 
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px; /* 121.667% */
+    width: 542px;
+    height: 219px;
+    margin-bottom: 0;
+    margin-top: -60px;
+}
+.sl-4{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 197px;
+}
+.nft_p{
+    color: #4C99BB;
 
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px; /* 119.231% */
+    width: 521px;
+    height: 62px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.nft_p2{
+    width: 418px;
+    height: 100px;
+    color: #FFF;
 
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.button_3{
+    width: 126px;
+    height: 68px;
+    border-radius: 16px;
+    border: 2px #56CAB1 solid;
+    color: #FFF;
+    background: none;
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 34px;
+    margin-top: 7px;
+    position: relative;
+}
+/*.button_3:hover{*/
+/*    position: absolute;*/
+/*    border: 2px #56CAB1 solid;*/
+/*    background: none;*/
+/*    width: 126px;*/
+/*    height: 68px;*/
+/*    top: 6px;*/
+/*    left: 5px;*/
+/*}*/
+.colection{
+    width: 521px;
+    height: 132px;
+    border-radius: 18px;
+    background: #3A5B6A;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 44px;
+    color: #FFF;
+
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+/*---------------------------------------------sl-5------------------------------------------------*/
 
 
 
