@@ -254,17 +254,7 @@ span{
     text-transform: capitalize;
     margin-bottom: 34px;
     margin-top: 7px;
-    position: relative;
 }
-/*.button_3:hover{*/
-/*    position: absolute;*/
-/*    border: 2px #56CAB1 solid;*/
-/*    background: none;*/
-/*    width: 126px;*/
-/*    height: 68px;*/
-/*    top: 6px;*/
-/*    left: 5px;*/
-/*}*/
 .colection{
     width: 521px;
     height: 132px;
