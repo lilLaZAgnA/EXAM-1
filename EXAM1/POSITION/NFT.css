@@ -239,7 +239,7 @@ span{
     margin-bottom: 0;
     margin-top: 0;
 }
-.button_3{
+.button_3>button:first-of-type{
     width: 126px;
     height: 68px;
     border-radius: 16px;
@@ -254,6 +254,26 @@ span{
     text-transform: capitalize;
     margin-bottom: 34px;
     margin-top: 7px;
+
+}
+.button_3>button:last-of-type{
+    width: 126px;
+    height: 68px;
+    background: rgba(2, 6, 26, 0.01);
+    border-radius: 16px;
+    border: 2px #56CAB1 solid;
+    position: relative;
+    top: 30px;
+    left: -126px;
+}
+.text_button{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
 }
 .colection{
     width: 521px;
@@ -303,7 +323,7 @@ span{
     justify-content: center;
     flex-shrink: 0;
     color: #56CAB1;
-    -webkit-text-stroke-width: 2;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #02061A;
     font-family: Outfit;
     font-size: 40px;
@@ -325,7 +345,7 @@ span{
     height: 46.022px;
     transform: rotate(0);
     flex-shrink: 0;
-    margin: 15px 0 15px 15px;
+    margin: 0 0 15px 15px;
 }
 .rotate{
     width: 380.311px;
@@ -333,16 +353,24 @@ span{
     transform: rotate(-25.337deg);
     flex-shrink: 0;
     border-radius: 10px;
-    background: rgba(137, 130, 130, 0.50);
+    /*background: rgba(137, 130, 130, 0.50);*/
     border-radius: 10px;
     mix-blend-mode: screen;
     margin-top: 150px;
     position: relative;
-    z-index: -1;
+    /*z-index: -1;*/
+    background-color: rgba(137, 130, 130, 0.50);
+    z-index: 1;
+    position: relative;
 }
 #photo{
     border-radius: 5px;
-    opacity: 1;
+
+}
+.photo2{
+    width: 374.023px;
+    height: 358px;
+    background: url("img/monkey-g412399084_1280 1 (1).png") lightgray 50% / cover no-repeat;
 }
 .button_4{
     border-radius: 100px;
@@ -375,20 +403,24 @@ span{
     height: 507px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: rgba(137, 130, 130, 0.50);
-    mix-blend-mode: screen;
-    margin-top: 221px;
+    /*background: rgba(137, 130, 130, 0.50);*/
+    /*mix-blend-mode: screen;*/
+    margin-top: 201px;
+    background-color: rgba(137, 130, 130, 0.50);
+    z-index: 2;
+    position: relative;
+    right: 100px;
+    top: 30px;
 }
 .button_5{
-    width: 160px;
     height: 51px;
     flex-shrink: 0;
     border-radius: 3px;
     border: 2px #000;
     background: #1F143B;
-    width: 89.844px;
+    width: 147.461px;
     color: #52A7C6;
-    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #02061A;
     font-family: Outfit;
     font-size: 40px;
@@ -400,16 +432,218 @@ span{
 .just{
     display: flex;
 }
+/*---------------------------------------------sl-6------------------------------------------------*/
+.text_4{
+    color: #5BD2BF;
+    margin-bottom: 4px;
+    margin-top: 234px;
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.h3_people{
+    color: #FFF;
+    margin-top: 0;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 147px;
+}
+.h3_p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.block_sl6{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+.block_1_2_3{
+    width: 345px;
+    height: 360px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #24293F;
+    position: relative;
+}
+.name{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 27px;
+    margin-top: 83px;
+}
+.description{
+    color: #FFF;
+    margin-top: 0;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.sercle{
+    width: 155.375px;
+    height: 150px;
+    background: url("img/images 1.png") lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: -75px;
+    right: 95px;
+    left: 95px;
+    border-radius: 50%;
+}
+.sercle2{
+    width: 155.375px;
+    height: 150px;
+    background: url("img/Melanie Aimer - Barclays Private Bank 1.png") lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: -75px;
+    right: 95px;
+    left: 95px;
+    border-radius: 50%;
+}
+.sercle3{
+    width: 155.375px;
+    height: 150px;
+    background: url("img/Ryan Kirk Surexdirect 1.png") lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: -75px;
+    right: 95px;
+    left: 95px;
+    border-radius: 50%;
+}
+/*---------------------------------------------sl-7------------------------------------------------*/
 
+.sl_7{
+    width: 1063px;
+    height: 378px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 208px auto 262px auto;
+}
+.text_project{
+    color: #FFF;
 
+    text-align: center;
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+    margin-bottom: 52px;
+    margin-top: 24px;
+}
+.button_6{
+    color: #FFF;
 
-
-
-
-
-
-
-
+    text-align: center;
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+    text-transform: uppercase;
+    width: 344px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #000;
+    margin-bottom: 62px;
+    margin-top: 0;
+}
+/*---------------------------------------------sl-8------------------------------------------------*/
+.sl_8{
+    display: flex;
+    justify-content: center;
+    gap: 126px;
+}
+.footer_text{
+   display: flex;
+    flex-direction: column;
+}
+#text_none{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+#contact{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.li{
+    list-style-type: none;
+}
+.button_7{
+    width: 253px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #3B7C70;
+    position: relative;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    border: none;
+    margin-top: 9px;
+}
+.button_8{
+    width: 100px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #262E48;
+    position: relative;
+    right: -152px;
+    top: -58.5px;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    border: none;
+}
 
 
 
